@@ -7,11 +7,16 @@ int main()
     scanf ("%d",&b);
     int c;
     
-    if(a < b){ ;
+    if(a < b)
+    { 
         printf("a<b");
-    }else if(a > b){ ;
+    }
+    else if(a > b)
+    { 
         printf("a>b");
-    }else{
+    }
+    else
+    {
         printf("a=b");
     }
     
