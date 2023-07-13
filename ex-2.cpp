@@ -3,22 +3,14 @@
 int main()
 {
     int a , b;
-    scanf ("%d %d",&a,&b);
+    scanf ("%d",&a);
     int c;
-    
-    if(a < b)
-    { 
-        printf("a<b");
-    }
-    else if(a > b)
-    { 
-        printf("a>b");
-    }
-    else
-    {
-        printf("a=b");
-    }
-    
-
+     for(int i=0;i<9;i++)
+     {
+         for(int j=0;j<9;j++)
+     {
+         printf("i=%d j=%d \n",i,j);
+     }
+     }
     return 0;
 }
