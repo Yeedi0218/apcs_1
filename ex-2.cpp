@@ -2,12 +2,20 @@
 
 int main()
 {
-    int a=10 , b= 20;
+    int a , b;
+    scanf ("%d",&a);
+    scanf ("%d",&b);
+
     int c;
     
     c= a < b;
     printf("c = %d \n",c);
+    
+    c= a > b;
+    printf("c = %d \n",c);
+    
+    c= a == b;
+    printf("c = %d \n",c);
 
     return 0;
 }
-
